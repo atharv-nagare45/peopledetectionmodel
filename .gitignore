@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets
+train/
+valid/
+test/
+
+# YOLO Temporary Prediction & Validation Logs
+runs/detect/predict*/
+runs/detect/val*/
+runs/detect/train*/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

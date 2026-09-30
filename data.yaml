@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: shivanshpardeshi90-gmail-com
+  project: people-detection-o4rdr-gsrmt
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/shivanshpardeshi90-gmail-com/people-detection-o4rdr-gsrmt/1r                   
